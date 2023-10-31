@@ -31,7 +31,7 @@ This is currectly working on the server side. I'm working on specified email eve
 - [ ] User with an approved email sends an email via SendGrid.
 - [ ] SendGrid processes the email.
 - [ ] On specified email events (like delivery), SendGrid triggers its Webhook Event and sends an HTTP POST request to the Cloudflare Worker endpoint.
-- [ ] Cloudflare Worker checks the sender's email against a predefined mapping of email-to-mobile numbers.
+- [x] Cloudflare Worker checks the sender's email against a predefined mapping of email-to-mobile numbers.
 - [x] If the sender is approved, Cloudflare Worker triggers an API call to Twilio with the associated mobile number.
 - [x] Twilio processes the API request and sends an SMS to the mapped mobile number.
 - [x] Test SMS received by the associated recipient.
