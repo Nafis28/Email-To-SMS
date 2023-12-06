@@ -12,7 +12,7 @@ async function handleRequest(request) {
 
     // Map sender email to phone number (customize this mapping based on your needs)
     const phoneMappings = {
-      'support@app.aatroxcommunications.com.au': '+61423624140'  // Replace with actual phone number
+      'sms@sms.aatroxcommunications.com.au': '+61423624140'  // Replace with actual phone number
       // Add other mappings as needed
     };
 
