@@ -2,7 +2,7 @@ addEventListener('fetch', event => {
   event.respondWith(handleRequest(event.request))
 })
 
-const TWILIO_PHONE_NUMBER = '+61480092025'; // The client number or number on twilio used to send the SMS 
+const TWILIO_PHONE_NUMBER = '+number'; // The client number or number on twilio used to send the SMS 
 
 async function handleRequest(request) {
   if (request.method === 'POST') {
